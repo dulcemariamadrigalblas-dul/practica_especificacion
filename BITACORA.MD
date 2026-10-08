@@ -1,1 +1,1 @@
-casos de prueba y registro de rechazos
+Ej1: especificacion y casos esperados
