@@ -156,3 +156,79 @@ Seleccione una opción:
 2.Calcular calificación final
 3.Calcular ticket de compra
 4.Salir
+
+
+
+Ej.4 CASO 1. EJERCICIO 4 calcular el estacionamiento
+ENTRADA
+ 45                     60                 61            150           600
+ESPERADO (A MANO)        
+$20.00                $20.00             $35.00        $50.00         $150.00 
+OBTENIDO
+$20.00                $20.00             $35.00        $50.00         $150.00 
+COINCIDE
+SI                   SI                   SI              SI            SI
+
+Ej4: código generado con Copilot
+PS C:\Users\dulce\OneDrive\practica_especificacion\practica_especificacion> python .\main.py
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Salir
+Ingrese el número de la opción deseada: 4
+Ingrese el tiempo de estancia en minutos: 45
+Cobro: $20.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Salir
+Ingrese el número de la opción deseada: 4
+Ingrese el tiempo de estancia en minutos: 60
+Cobro: $20.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Salir
+Ingrese el número de la opción deseada: 4
+Ingrese el tiempo de estancia en minutos: 61
+Cobro: $35.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Salir
+Ingrese el número de la opción deseada: 4
+Ingrese el tiempo de estancia en minutos: 150
+Cobro: $50.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Salir
+Ingrese el número de la opción deseada: 4
+Ingrese el tiempo de estancia en minutos: 50
+Cobro: $20.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Salir
+Ingrese el número de la opción deseada: 4
+Ingrese el tiempo de estancia en minutos: 600
+Cobro: $150.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Salir
+Ingrese el número de la opción deseada: 

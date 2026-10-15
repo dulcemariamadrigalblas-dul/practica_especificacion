@@ -9,7 +9,7 @@ def main():
         print("1. Calcular recibo de luz")
         print("2. Calcular calificación final")
         print("3. Calcular ticket de compra")
-        print("4. Calcular importe a cobrar por estacionamiento")
+        print("4. Calcular cobro de estacionamiento")
         print("5. Salir")
         opcion = input("Ingrese el número de la opción deseada: ")
 
@@ -35,11 +35,9 @@ def main():
             break
         else:
             print("Opción inválida. Por favor, intente nuevamente.")
-    consumo = leerConsumo()
-    recibo = calcularPago(consumo)
-    mostrarRecibo(recibo)
-
+        
    
 if __name__ == "__main__":
     main()
+
 
