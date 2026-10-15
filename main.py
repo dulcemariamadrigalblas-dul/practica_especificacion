@@ -1,7 +1,7 @@
 from ejercicios.ejercicio1_luz import leerConsumo, calcularPago, mostrarRecibo
 from ejercicios.ejercicio2_calificacion import leerParciales, calcularFinal, determinarEstado, mostrarResultado
 from ejercicios.ejercicio3_compra import leerSubtotal, calcularDescuento, calcularIVA, calcularTotal, mostrarTicket
-
+from ejercicios.ejercicio4_estacionamiento import leerMinutos, calcularCobro, mostrarCobroFinal
 
 def main():
     while True:
@@ -9,7 +9,8 @@ def main():
         print("1. Calcular recibo de luz")
         print("2. Calcular calificación final")
         print("3. Calcular ticket de compra")
-        print("4. Salir")
+        print("4. Calcular importe a cobrar por estacionamiento")
+        print("5. Salir")
         opcion = input("Ingrese el número de la opción deseada: ")
 
         if opcion == "1":
@@ -26,6 +27,10 @@ def main():
             total = calcularTotal(subtotal, descuento, iva)
             mostrarTicket(subtotal, descuento, iva, total)
         elif opcion == "4":
+            minutos = leerMinutos()
+            cobro = calcularCobro(minutos)
+            mostrarCobroFinal(cobro)
+        elif opcion == "5": 
             print("Saliendo del programa.")
             break
         else:
