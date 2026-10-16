@@ -2,6 +2,11 @@ from ejercicios.ejercicio1_luz import leerConsumo, calcularPago, mostrarRecibo
 from ejercicios.ejercicio2_calificacion import leerParciales, calcularFinal, determinarEstado, mostrarResultado
 from ejercicios.ejercicio3_compra import leerSubtotal, calcularDescuento, calcularIVA, calcularTotal, mostrarTicket
 from ejercicios.ejercicio4_estacionamiento import leerMinutos, calcularCobro, mostrarCobroFinal
+from ejercicios.ejercicio5_renta import leerHoras, calcularRenta, mostrarRenta
+
+
+
+
 
 def main():
     while True:
@@ -10,7 +15,8 @@ def main():
         print("2. Calcular calificación final")
         print("3. Calcular ticket de compra")
         print("4. Calcular cobro de estacionamiento")
-        print("5. Salir")
+        print("5. Calcular renta de equipo")
+        print("6. Salir")
         opcion = input("Ingrese el número de la opción deseada: ")
 
         if opcion == "1":
@@ -31,10 +37,12 @@ def main():
             cobro = calcularCobro(minutos)
             mostrarCobroFinal(cobro)
         elif opcion == "5": 
+            horas = leerHoras()
+            importe = calcularRenta(horas)
+            mostrarRenta(importe)
+        elif opcion == "6":
             print("Saliendo del programa.")
             break
-        else:
-            print("Opción inválida. Por favor, intente nuevamente.")
         
    
 if __name__ == "__main__":
