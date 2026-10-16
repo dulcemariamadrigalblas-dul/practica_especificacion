@@ -4,7 +4,7 @@ from ejercicios.ejercicio3_compra import leerSubtotal, calcularDescuento, calcul
 from ejercicios.ejercicio4_estacionamiento import leerMinutos, calcularCobro, mostrarCobroFinal
 from ejercicios.ejercicio5_renta import leerHoras, calcularRenta, mostrarRenta
 from ejercicios.ejercicio6_cine import leerEdad, calcularPrecio, mostrarPrecio
-
+from ejercicios.ejercicio7_multa import leerVelocidad, calcularMulta, mostrarMulta
 
 
 
@@ -18,7 +18,8 @@ def main():
         print("4. Calcular cobro de estacionamiento")
         print("5. Calcular renta de equipo")
         print("6. Calcular precio de boleto de cine")
-        print("7. Salir")
+        print("7. Calcular Multa")
+        print("8. Salir")
         opcion = input("Ingrese el número de la opción deseada: ")
 
         if opcion == "1":
@@ -47,6 +48,10 @@ def main():
             precio = calcularPrecio(edad)
             mostrarPrecio(precio)
         elif opcion == "7":
+            velocidad = leerVelocidad()
+            multa = calcularMulta(velocidad)
+            mostrarMulta(multa)
+        elif opcion == "8":
             print("Saliendo del programa.")
             break
         else:

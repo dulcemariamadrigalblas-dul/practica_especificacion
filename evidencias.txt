@@ -1,0 +1,119 @@
+EJERCICIO 5: (.venv) PS C:\Users\dulce\OneDrive\practica_especificacion\practica_especificacion> python .\main.py
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Salir
+Ingrese el número de la opción deseada: 5
+Ingrese las horas de renta: 1
+Importe a pagar: $30.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Salir
+Ingrese el número de la opción deseada: 5
+Ingrese las horas de renta: 2
+Importe a pagar: $60.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Salir
+Ingrese el número de la opción deseada: 5
+Ingrese las horas de renta: 3
+Importe a pagar: $76.50
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Salir
+Ingrese el número de la opción deseada: 5
+Ingrese las horas de renta: 4
+Importe a pagar: $102.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Salir
+Ingrese el número de la opción deseada: 
+
+
+EJERCICIO 6
+(.venv) PS C:\Users\dulce\OneDrive\practica_especificacion\practica_especificacion> python .\main.py
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Calcular precio de boleto de cine
+7. Salir
+Ingrese el número de la opción deseada: 6
+Ingrese la edad: 8
+Precio del boleto: $40.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Calcular precio de boleto de cine
+7. Salir
+Ingrese el número de la opción deseada: 6
+Ingrese la edad: 12
+Precio del boleto: $40.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Calcular precio de boleto de cine
+7. Salir
+Ingrese el número de la opción deseada: 6
+Ingrese la edad: 13
+Precio del boleto: $80.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Calcular precio de boleto de cine
+7. Salir
+Ingrese el número de la opción deseada: 6
+Ingrese la edad: 59   
+Precio del boleto: $80.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Calcular precio de boleto de cine
+7. Salir
+Ingrese el número de la opción deseada: 6
+Ingrese la edad: 60
+Precio del boleto: $40.00
+Seleccione una opción:
+1. Calcular recibo de luz
+2. Calcular calificación final
+3. Calcular ticket de compra
+4. Calcular cobro de estacionamiento
+5. Calcular renta de equipo
+6. Calcular precio de boleto de cine
+7. Salir
+Ingrese el número de la opción deseada: 7
+Saliendo del programa.
+(.venv) PS C:\Users\dulce\OneDrive\practica_especificacion\practica_especificacion> 
